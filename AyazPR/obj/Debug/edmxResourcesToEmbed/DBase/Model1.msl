@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище Ych_PR_KMModelContainer" CdmEntityContainer="Ych_PR_KMEntities">
+    <EntitySetMapping Name="Academics">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Academics">
+        <MappingFragment StoreEntitySet="Academics">
+          <ScalarProperty Name="Id_academics" ColumnName="Id_academics" />
+          <ScalarProperty Name="FIO" ColumnName="FIO" />
+          <ScalarProperty Name="Date_Born" ColumnName="Date_Born" />
+          <ScalarProperty Name="Id_Specialization" ColumnName="Id_Specialization" />
+          <ScalarProperty Name="Year_rank" ColumnName="Year_rank" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Animal_Kornilova_Marushkina">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Animal_Kornilova_Marushkina">
+        <MappingFragment StoreEntitySet="Animal_Kornilova_Marushkina">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Otrad" ColumnName="Otrad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Application">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Application">
+        <MappingFragment StoreEntitySet="Application">
+          <ScalarProperty Name="Id_Application" ColumnName="Id_Application" />
+          <ScalarProperty Name="Id_Speciality" ColumnName="Id_Speciality" />
+          <ScalarProperty Name="Id_Discipline" ColumnName="Id_Discipline" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Boss">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Boss">
+        <MappingFragment StoreEntitySet="Boss">
+          <ScalarProperty Name="Id_Boss" ColumnName="Id_Boss" />
+          <ScalarProperty Name="Rang" ColumnName="Rang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Continent">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Continent">
+        <MappingFragment StoreEntitySet="Continent">
+          <ScalarProperty Name="Id_Continent" ColumnName="Id_Continent" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Control_Kornilova_Marushkina">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Control_Kornilova_Marushkina">
+        <MappingFragment StoreEntitySet="Control_Kornilova_Marushkina">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Countries_Kornilova_Marushkina">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Countries_Kornilova_Marushkina">
+        <MappingFragment StoreEntitySet="Countries_Kornilova_Marushkina">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Square" ColumnName="Square" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Country">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Country">
+        <MappingFragment StoreEntitySet="Country">
+          <ScalarProperty Name="Id_Country" ColumnName="Id_Country" />
+          <ScalarProperty Name="Name_Country" ColumnName="Name_Country" />
+          <ScalarProperty Name="Capital" ColumnName="Capital" />
+          <ScalarProperty Name="Square" ColumnName="Square" />
+          <ScalarProperty Name="Population" ColumnName="Population" />
+          <ScalarProperty Name="Id_Continent" ColumnName="Id_Continent" />
+          <ScalarProperty Name="Type_Control" ColumnName="Type_Control" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Degree">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Degree">
+        <MappingFragment StoreEntitySet="Degree">
+          <ScalarProperty Name="Id_Degree" ColumnName="Id_Degree" />
+          <ScalarProperty Name="Name_Degree" ColumnName="Name_Degree" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Departament">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Departament">
+        <MappingFragment StoreEntitySet="Departament">
+          <ScalarProperty Name="Cipher" ColumnName="Cipher" />
+          <ScalarProperty Name="Name_Departament" ColumnName="Name_Departament" />
+          <ScalarProperty Name="AbbreviationID" ColumnName="AbbreviationID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Discipline">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Discipline">
+        <MappingFragment StoreEntitySet="Discipline">
+          <ScalarProperty Name="Id_Discipline" ColumnName="Id_Discipline" />
+          <ScalarProperty Name="Volume" ColumnName="Volume" />
+          <ScalarProperty Name="Name_Discipline" ColumnName="Name_Discipline" />
+          <ScalarProperty Name="CipherID" ColumnName="CipherID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employee">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="Id_Number" ColumnName="Id_Number" />
+          <ScalarProperty Name="CipherID" ColumnName="CipherID" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Id_Pozition" ColumnName="Id_Pozition" />
+          <ScalarProperty Name="Id_Boss" ColumnName="Id_Boss" />
+          <ScalarProperty Name="Id_Rank" ColumnName="Id_Rank" />
+          <ScalarProperty Name="Id_Degree" ColumnName="Id_Degree" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Engineer">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Engineer">
+        <MappingFragment StoreEntitySet="Engineer">
+          <ScalarProperty Name="Id_Engineer" ColumnName="Id_Engineer" />
+          <ScalarProperty Name="Id_Spec" ColumnName="Id_Spec" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Exame">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Exame">
+        <MappingFragment StoreEntitySet="Exame">
+          <ScalarProperty Name="Id_Exam" ColumnName="Id_Exam" />
+          <ScalarProperty Name="Date_Exam" ColumnName="Date_Exam" />
+          <ScalarProperty Name="Id_Discipline" ColumnName="Id_Discipline" />
+          <ScalarProperty Name="Id_Student" ColumnName="Id_Student" />
+          <ScalarProperty Name="Id_Teacher" ColumnName="Id_Teacher" />
+          <ScalarProperty Name="Auditoria" ColumnName="Auditoria" />
+          <ScalarProperty Name="Grade" ColumnName="Grade" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Faculty">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Faculty">
+        <MappingFragment StoreEntitySet="Faculty">
+          <ScalarProperty Name="Abbreviation" ColumnName="Abbreviation" />
+          <ScalarProperty Name="Name_Faculty" ColumnName="Name_Faculty" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Flowers_Kornilova_Marushkina">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Flowers_Kornilova_Marushkina">
+        <MappingFragment StoreEntitySet="Flowers_Kornilova_Marushkina">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Learner">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Learner">
+        <MappingFragment StoreEntitySet="Learner">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="SubjectL" ColumnName="SubjectL" />
+          <ScalarProperty Name="School" ColumnName="School" />
+          <ScalarProperty Name="Scores" ColumnName="Scores" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pozition">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Pozition">
+        <MappingFragment StoreEntitySet="Pozition">
+          <ScalarProperty Name="Id_Pozition" ColumnName="Id_Pozition" />
+          <ScalarProperty Name="Name_Pozition" ColumnName="Name_Pozition" />
+          <ScalarProperty Name="Salary" ColumnName="Salary" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rank">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Rank">
+        <MappingFragment StoreEntitySet="Rank">
+          <ScalarProperty Name="Id_Rank" ColumnName="Id_Rank" />
+          <ScalarProperty Name="Name_Rank" ColumnName="Name_Rank" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Spec">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Spec">
+        <MappingFragment StoreEntitySet="Spec">
+          <ScalarProperty Name="Id_Spec" ColumnName="Id_Spec" />
+          <ScalarProperty Name="Name_Spec" ColumnName="Name_Spec" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Speciality">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Speciality">
+        <MappingFragment StoreEntitySet="Speciality">
+          <ScalarProperty Name="Id_Speciality" ColumnName="Id_Speciality" />
+          <ScalarProperty Name="Name_Speciality" ColumnName="Name_Speciality" />
+          <ScalarProperty Name="CipherID" ColumnName="CipherID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Specialization">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Specialization">
+        <MappingFragment StoreEntitySet="Specialization">
+          <ScalarProperty Name="Id_Spezialization" ColumnName="Id_Spezialization" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Student">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Student">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="Id_Student" ColumnName="Id_Student" />
+          <ScalarProperty Name="Id_Speciality" ColumnName="Id_Speciality" />
+          <ScalarProperty Name="LastName_Student" ColumnName="LastName_Student" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentDiscipline">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.StudentDiscipline">
+        <MappingFragment StoreEntitySet="StudentDiscipline">
+          <ScalarProperty Name="Id_SD" ColumnName="Id_SD" />
+          <ScalarProperty Name="Id_Discipline" ColumnName="Id_Discipline" />
+          <ScalarProperty Name="Id_Student" ColumnName="Id_Student" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Type_Control">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Type_Control">
+        <MappingFragment StoreEntitySet="Type_Control">
+          <ScalarProperty Name="Id_Control" ColumnName="Id_Control" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Гимназисты">
+      <EntityTypeMapping TypeName="Ych_PR_KMModel.Гимназисты">
+        <MappingFragment StoreEntitySet="Гимназисты">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="SubjectL" ColumnName="SubjectL" />
+          <ScalarProperty Name="School" ColumnName="School" />
+          <ScalarProperty Name="Scores" ColumnName="Scores" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

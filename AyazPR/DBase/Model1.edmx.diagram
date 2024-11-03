@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="82bf17cad25540b1b6788ef8b7ff4551" Name="Diagram1" ZoomLevel="80">
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Academics" Width="1.5" PointX="13" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Animal_Kornilova_Marushkina" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Application" Width="1.5" PointX="7.5" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Boss" Width="1.5" PointX="6" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Continent" Width="1.5" PointX="8.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Control_Kornilova_Marushkina" Width="1.5" PointX="2.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Countries_Kornilova_Marushkina" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Country" Width="1.5" PointX="11" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Degree" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Departament" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Discipline" Width="1.5" PointX="5.25" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Employee" Width="1.5" PointX="8.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Engineer" Width="1.5" PointX="16" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Exame" Width="1.5" PointX="9.75" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Faculty" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Flowers_Kornilova_Marushkina" Width="1.5" PointX="2.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Learner" Width="1.5" PointX="0.75" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Pozition" Width="1.5" PointX="6" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Rank" Width="1.5" PointX="6" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Spec" Width="1.5" PointX="13.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Speciality" Width="1.5" PointX="5.25" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Specialization" Width="1.5" PointX="10.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Student" Width="1.5" PointX="7.5" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.StudentDiscipline" Width="1.5" PointX="12.75" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Type_Control" Width="1.5" PointX="8.75" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ych_PR_KMModel.Гимназисты" Width="1.5" PointX="11.75" PointY="14.125" IsExpanded="true" />
+        <AssociationConnector Association="Ych_PR_KMModel.FK_Academics_Specialization" ManuallyRouted="false" />
+        <AssociationConnector Association="Ych_PR_KMModel.FK_Application_Discipline" ManuallyRouted="false" />
+        <AssociationConnector Association="Ych_PR_KMModel.FK_Application_Speciality" ManuallyRouted="false" />
+        <AssociationConnector Association="Ych_PR_KMModel.FK_Employee_Boss" ManuallyRouted="false" />
+        <AssociationConnector Association="Ych_PR_KMModel.FK_Country_Continent" ManuallyRouted="false" />
+        <AssociationConnector Association="Ych_PR_KMModel.FK_Country_Type_Control" ManuallyRouted="false" />
+        <AssociationConnector Association="Ych_PR_KMModel.FK_Employee_Degree" ManuallyRouted="false" />
+        <AssociationConnector Association="Ych_PR_KMModel.FK_Departament_Faculty" ManuallyRouted="false" />
+        <AssociationConnector Association="Ych_PR_KMModel.FK_Discipline_Departament" ManuallyRouted="false" />
+        <AssociationConnector Association="Ych_PR_KMModel.FK_Employee_Departament" ManuallyRouted="false" />
+        <AssociationConnector Association="Ych_PR_KMModel.FK_Speciality_Departament" ManuallyRouted="false" />
+        <AssociationConnector Association="Ych_PR_KMModel.FK_Exame_Discipline" ManuallyRouted="false" />
+        <AssociationConnector Association="Ych_PR_KMModel.FK_StudentDiscipline_Discipline" ManuallyRouted="false" />
+        <AssociationConnector Association="Ych_PR_KMModel.FK_Employee_Pozition" ManuallyRouted="false" />
+        <AssociationConnector Association="Ych_PR_KMModel.FK_Employee_Rank" ManuallyRouted="false" />
+        <AssociationConnector Association="Ych_PR_KMModel.FK_Exame_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="Ych_PR_KMModel.FK_Engineer_Spec" ManuallyRouted="false" />
+        <AssociationConnector Association="Ych_PR_KMModel.FK_Exame_Student" ManuallyRouted="false" />
+        <AssociationConnector Association="Ych_PR_KMModel.FK_Student_Speciality" ManuallyRouted="false" />
+        <AssociationConnector Association="Ych_PR_KMModel.FK_StudentDiscipline_Student" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

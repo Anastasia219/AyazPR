@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AyazPR.Pages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,15 @@ namespace AyazPR
         public MainWindow()
         {
             InitializeComponent();
+            Navigation.mainWindow = this;
+            Navigation.NextPage(new PageComponents("Авторизация", new Autorisation()));
+
+        }
+
+        private void BackBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Navigation.BackPage();
+        }
+
         }
     }
-}

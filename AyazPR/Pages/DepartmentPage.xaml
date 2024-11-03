@@ -1,0 +1,47 @@
+﻿<Page x:Class="AyazPR.Pages.DepartmentPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AyazPR.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="DepartmentPage">
+
+    <Grid  Background="#FFE8EEFF">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="14*"/>
+            <RowDefinition Height="61*"/>
+            <RowDefinition Height="15*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock>По наименованию и описанию</TextBlock>
+            <TextBox  Name="SerchTb" TextChanged="SerchTb_TextChanged"  ></TextBox>
+            <TextBlock>Фильтр</TextBlock>
+            <ComboBox x:Name="Filtercb" SelectionChanged="Filtercb_SelectionChanged">
+                <ComboBoxItem>от А до Я</ComboBoxItem>
+                <ComboBoxItem>от Я до А</ComboBoxItem>
+            </ComboBox>
+        </StackPanel>
+        <ListView Margin="10 10 10 10" x:Name="DList" Grid.Row="1" >
+            <ListView.View>
+                <GridView>
+                    <GridView.Columns>
+                        <GridViewColumn Width="150px" Header="ID" DisplayMemberBinding="{Binding Cipher}"></GridViewColumn>
+                        <GridViewColumn Width="250px" Header="Название"  DisplayMemberBinding="{Binding Name_Departament}"></GridViewColumn>
+                        <GridViewColumn  Width="200px" Header="Факультет" DisplayMemberBinding="{Binding Faculty.Name_Faculty}"></GridViewColumn>
+
+
+                    </GridView.Columns>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <StackPanel Grid.Row="2" HorizontalAlignment="Center" Orientation="Horizontal" Width="800" >
+            <Button Width="120" Height="35"  x:Name="AddBtn" Margin="80 0 40 0" Click="AddBtn_Click" Style="{StaticResource StilyzedButton}" >Добавить</Button>
+            <Button  x:Name="DeleteBtn" Height="35" Width="150" Margin="35 0 35 0" Click="DeleteBtn_Click" Style="{StaticResource StilyzedButton}" >Удалить</Button>
+            <Button  x:Name="ChangeBtn" Height="35" Width="150" Click="ChangeBtn_Click" Margin="40 0 20 0" Style="{StaticResource StilyzedButton}">Редактировать</Button>
+            <TextBlock Margin="30 0" x:Name="CountDataTb"></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

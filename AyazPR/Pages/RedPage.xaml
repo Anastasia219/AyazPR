@@ -1,0 +1,33 @@
+﻿<Page x:Class="AyazPR.Pages.RedPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AyazPR.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="RedPage">
+
+    <Grid Background="#FFE8EEFF">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10" >
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <TextBlock>Индентификатор</TextBlock>
+                <TextBox Text="{Binding Cipher}"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <TextBlock>Название</TextBlock>
+                <TextBox Text="{Binding Name_Departament}"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <TextBlock>Id Факультета</TextBlock>
+                <TextBox Text="{Binding AbbreviationID}"></TextBox>
+            </StackPanel>
+
+            <StackPanel>
+                <Button x:Name="SaveBtn" Click="SaveBtn_Click" Margin="15" Style="{StaticResource StilyzedButton}" >сохранить</Button>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Page>

@@ -6,7 +6,15 @@
         xmlns:local="clr-namespace:AyazPR"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="#FFE8EEFF">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="12*">
+            </RowDefinition>
+        </Grid.RowDefinitions>
+        <Image x:Name="MainLogo" Height="90"  Width="70" Source="/Resourse/75f3b23f-d86c-410f-8230-8dc505827997.png" />
+        <Button Grid.Row="0" Width="80" Height="30" HorizontalAlignment="Right" Margin="25" x:Name="BackBtn" Click="BackBtn_Click" Style="{ StaticResource StilyzedButton}" >Назад</Button>
+        <Frame  Grid.Row="1" x:Name="MainFrame" NavigationUIVisibility="Hidden"></Frame>
+
     </Grid>
 </Window>
