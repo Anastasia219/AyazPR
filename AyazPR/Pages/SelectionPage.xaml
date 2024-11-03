@@ -10,7 +10,7 @@
 
     <Grid  Background="#FFE8EEFF">
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center"  VerticalAlignment="Center">
-            <Button Height="25"  Width="200" Style="{StaticResource StilyzedButton}" Margin="15" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Кафедры" x:Name="DepartB" Click="DepartB_Click"/>
+            <Button Height="25"  Width="200" Style="{StaticResource StilyzedButton}" Margin="15 " HorizontalAlignment="Center" VerticalAlignment="Center" Content="Кафедры" x:Name="DepartB" Click="DepartB_Click"/>
             <Button Height="25"  Width="200" Style="{StaticResource StilyzedButton}" VerticalAlignment="Center" HorizontalAlignment="Center" Content="Дисциплины" x:Name="DisciplineB" Click="DisciplineB_Click"/>
         </StackPanel>
 
