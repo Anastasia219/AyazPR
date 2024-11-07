@@ -21,10 +21,6 @@ namespace AyazPR
 
         private static void Update(PageComponents pageComponents)//содержит всю логику добавляем в нее пейдж и вызываем апдате
         {
-            //mainWindow.TitleTB.Text = pageComponents.Title; //запиши татле
-
-            //если в нашей истории больше одного элемента когда находимся на второй странице то показывай кнопку назад иначе нет
-                                                                                                                                           //mainWindow.ExsidBTN.Visibility = App.isAdmin ? System.Windows.Visibility.Visible : System.Windows.Visibility.Hidden;
             mainWindow.MainFrame.Navigate(pageComponents.Page); //передаем передай падже
 
         }
