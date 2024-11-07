@@ -24,6 +24,7 @@ namespace AyazPR.Pages
         public EmployeePage()
         {
             InitializeComponent();
+            Navigation.mainWindow.QR.Visibility = Visibility.Collapsed;
             EList.ItemsSource = App.db.Employee.ToList();
 
         }

@@ -23,6 +23,7 @@ namespace AyazPR.Pages
         public DisciplinesPage()
         {
             InitializeComponent();
+            Navigation.mainWindow.QR.Visibility = Visibility.Collapsed;
             BList.ItemsSource = App.db.StudentDiscipline.Where(x => x.Id_Student == InfoUser.IdStudent).ToList();
             last.Text = App.db.Student.Where(x => x.Id_Student == InfoUser.IdStudent).FirstOrDefault().LastName_Student;
             DataContext = this;

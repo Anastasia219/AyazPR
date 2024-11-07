@@ -40,3 +40,7 @@ C:\Users\User\source\repos\AyazPR\AyazPR\obj\Debug\AyazPR.csproj.CoreCompileInpu
 C:\Users\User\source\repos\AyazPR\AyazPR\obj\Debug\AyazPR.csproj.CopyComplete
 C:\Users\User\source\repos\AyazPR\AyazPR\obj\Debug\AyazPR.exe
 C:\Users\User\source\repos\AyazPR\AyazPR\obj\Debug\AyazPR.pdb
+C:\Users\User\source\repos\AyazPR\AyazPR\bin\Debug\QRCoder.dll
+C:\Users\User\source\repos\AyazPR\AyazPR\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\User\source\repos\AyazPR\AyazPR\obj\Debug\Pages\QRPage.g.cs
+C:\Users\User\source\repos\AyazPR\AyazPR\obj\Debug\Pages\QRPage.baml

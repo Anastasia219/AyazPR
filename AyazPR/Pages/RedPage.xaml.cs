@@ -25,6 +25,7 @@ namespace AyazPR.Pages
         public RedPage(Departament _department)
         {
             InitializeComponent();
+            Navigation.mainWindow.QR.Visibility = Visibility.Collapsed;
             departament = _department;
             this.DataContext = departament;
             

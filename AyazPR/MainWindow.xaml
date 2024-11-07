@@ -14,6 +14,7 @@
         </Grid.RowDefinitions>
         <Image x:Name="MainLogo" Height="90"  Width="70" Source="/Resourse/75f3b23f-d86c-410f-8230-8dc505827997.png" />
         <Button Grid.Row="0" Width="80" Height="30" HorizontalAlignment="Right" Margin="25" x:Name="BackBtn" Click="BackBtn_Click" Style="{ StaticResource StilyzedButton}" >Назад</Button>
+        <Button Grid.Row="0" Width="80" Height="40" x:Name="QR" Margin="20 " HorizontalAlignment="Left" Click="Button_Click" Style="{ StaticResource StilyzedButton}" >QR-Code</Button>
         <Frame  Grid.Row="1" x:Name="MainFrame" NavigationUIVisibility="Hidden"></Frame>
 
     </Grid>

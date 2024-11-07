@@ -26,6 +26,7 @@ namespace AyazPR.Pages
         public PageDis(Discipline disciplinE)
         {
             InitializeComponent();
+            Navigation.mainWindow.QR.Visibility = Visibility.Collapsed;
             discipline = disciplinE;
             this.DataContext = discipline;
             if (discipline.Id_Discipline == 0)

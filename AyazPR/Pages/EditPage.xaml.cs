@@ -26,6 +26,7 @@ namespace AyazPR.Pages
         public EditPage(Employee _employee)
         {
             InitializeComponent();
+            Navigation.mainWindow.QR.Visibility = Visibility.Collapsed;
             employee = _employee;
             this.DataContext = employee;
             if (employee.Id_Number == 0)

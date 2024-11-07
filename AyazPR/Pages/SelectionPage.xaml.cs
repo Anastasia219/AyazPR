@@ -23,7 +23,8 @@ namespace AyazPR.Pages
         public SelectionPage()
         {
             InitializeComponent();
-       
+            Navigation.mainWindow.QR.Visibility = Visibility.Collapsed;
+
         }
 
         private void DepartB_Click(object sender, RoutedEventArgs e)

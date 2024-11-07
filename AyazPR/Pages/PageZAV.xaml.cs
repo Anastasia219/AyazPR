@@ -24,6 +24,7 @@ namespace AyazPR.Pages
         public PageZAV()
         {
             InitializeComponent();
+            Navigation.mainWindow.QR.Visibility = Visibility.Collapsed;
             ZList.ItemsSource = App.db.Discipline.ToList();
             
         }

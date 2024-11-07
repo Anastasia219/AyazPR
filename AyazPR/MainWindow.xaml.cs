@@ -32,7 +32,12 @@ namespace AyazPR
         private void BackBtn_Click(object sender, RoutedEventArgs e)
         {
             Navigation.BackPage();
+            Navigation.mainWindow.QR.Visibility = Visibility.Visible;
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Navigation.NextPage(new PageComponents("Авторизация", new QRPage()));
         }
+    }
     }

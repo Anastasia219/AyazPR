@@ -25,6 +25,7 @@ namespace AyazPR.Pages
         {
             InitializeComponent();
             DataContext = this;
+            Navigation.mainWindow.QR.Visibility = Visibility.Collapsed;
             Refresh();
         }
 
